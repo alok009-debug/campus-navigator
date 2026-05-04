@@ -1,0 +1,28 @@
+{
+    "AllLocations": [
+        {
+            "locId": 1,
+            "loc": "Bsc CA",
+            "x_coor": 10.99,
+            "y-coor": 2.45
+        },
+        {
+            "locId": 2,
+            "loc": "Bsc IT",
+            "x_coor": 1.89,
+            "y-coor": 2.9
+        },
+        {
+            "locId": 3,
+            "loc": "ELL",
+            "x_coor": 9.9,
+            "y-coor": 25.3
+        },
+        {
+            "locId": 4,
+            "loc": "Amanat",
+            "x_coor": 12.9,
+            "y-coor": 5.8
+        }
+    ]
+}
