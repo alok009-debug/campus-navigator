@@ -1,0 +1,7 @@
+.Scanner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20vh;
+    background-color: darkcyan;
+}

@@ -1,28 +1,28 @@
 {
-    "AllLocations": [
+    "campus": [
         {
             "locId": 1,
-            "loc": "Bsc CA",
+            "dept_name": "Bsc CA",
             "x_coor": 10.99,
-            "y-coor": 2.45
+            "y_coor": 2.45
         },
         {
             "locId": 2,
-            "loc": "Bsc IT",
+            "dept_name": "Bsc IT",
             "x_coor": 1.89,
-            "y-coor": 2.9
+            "y_coor": 2.9
         },
         {
             "locId": 3,
-            "loc": "ELL",
+            "dept_name": "ELL",
             "x_coor": 9.9,
-            "y-coor": 25.3
+            "y_coor": 25.3
         },
         {
             "locId": 4,
-            "loc": "Amanat",
+            "dept_name": "Amanat",
             "x_coor": 12.9,
-            "y-coor": 5.8
+            "y_coor": 5.8
         }
     ]
 }

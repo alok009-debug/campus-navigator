@@ -1,21 +1,34 @@
-import { useState, useEffect } from "react";
+// importing Components 
+import react, { useState, useEffect } from "react";
+// import Header from "./components/mainAppComponents/Header";
+// import Navbar from "./components/mainAppComponents/Navbar";
+// import MainArea from "./components/mainAppComponents/MainArea";
+// import AdminLogin from "./components/admin_components/AdminLogin";
+// import AdminPanel from "./components/admin_components/AdminPanel"; 
 
-import Navbar from "./componenets/Navbar";
-import MainArea from "./componenets/MainArea";
-import Scanner from "./componenets/Scanner";
 
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import MainArea from "./components/MainArea";
+import AdminLogin from "./components/AdminLogin";
+import AdminPanel from "./components/AdminPanel";
 
 const App = () => {
 
+  const [isAdminLoggedIn, setIsAdminLoggedIn] = useState(false)
 
   return (
     <div>
-      <h2>THE Campus Navigator APP</h2>
+      <Header />
+      {/* <Navbar /> */}
+      {/* <MainArea /> */}
 
-      <Navbar />
-      <MainArea />
-      
-
+      {/*checking is admin logged in */}
+      {!isAdminLoggedIn ? (
+        <AdminLogin onLogin={setIsAdminLoggedIn} />
+      ) :
+        (<AdminPanel />)
+      }
     </div>
   )
 }

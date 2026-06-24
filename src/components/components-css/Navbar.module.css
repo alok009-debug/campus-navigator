@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.navbar li{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px;
+    background-color: darkorchid;
+    list-style: decimal-leading-zero;
+}
+
+.navbar a:active, a:visited {
+    text-decoration: none;
+
+    padding: 2px;
+}
+
+.navbar :hover {
+    background-color: greenyellow;
+    font-size: small;
+    color: blue;
+    border: 10px solid;
+}
